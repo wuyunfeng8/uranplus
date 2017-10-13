@@ -1,17 +1,16 @@
 <template>
   <div id="app">
     <div class="page-content">
-      <router-view name="PageNav"></router-view>
+      <router-view name="pageNavBar"></router-view>
       <router-view></router-view>
-      <router-view name="PageFooter"></router-view>
+      <router-view name="pageFooter"></router-view>
     </div>
   </div>
 </template>
 
 <script>
-
-import PageNav from './components/pageNavBar'
-import PageFooter from './components/pageFooter'
+import pageNavBar from './components/pageNavBar'
+import pageFooter from './components/pageFooter'
 export default {
   name: 'app',
 }

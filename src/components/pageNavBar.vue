@@ -27,7 +27,7 @@
 
 <script>
 export default {
-    name: 'PageNav',
+    name: 'pageNavBar',
     data() {
         return {
             prdId: parseInt(Math.random())

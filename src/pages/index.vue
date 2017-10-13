@@ -1,13 +1,14 @@
 <template>
-  <h1>hello world index</h1>
+  <h1>
+    hello world index</h1>
 </template>
 
 <script>
 export default {
   name: 'index',
-  data () {
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '首页'
     }
   }
 }
