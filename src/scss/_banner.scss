@@ -1,0 +1,25 @@
+.banner.content{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/images/bg01.jpg') no-repeat center center;
+    background-size:cover;
+    h1{
+        color: #fff;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .content-box{
+        display: flex;
+        color: #fff;
+        font-size: 16px;
+        flex-direction: column;
+        align-items: center;
+        p{
+            text-align: center;;
+        }
+    }
+}

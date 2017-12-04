@@ -2,7 +2,9 @@
   <div id="app">
     <div class="page-content">
       <router-view name="pageNavBar"></router-view>
-      <router-view></router-view>
+      <div class="pageCent">
+          <router-view></router-view>
+      </div>
       <router-view name="pageFooter"></router-view>
     </div>
   </div>

@@ -1,7 +1,9 @@
 <template>
-    <p>
-        123
-    </p>
+    <div class="footer">
+        <p>
+            @武汉优燃佳科技有限公司
+        </p>
+    </div>
 </template>
 
 <script>

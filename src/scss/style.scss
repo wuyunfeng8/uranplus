@@ -1,0 +1,46 @@
+@import "navbar";
+@import "banner";
+@import "footer";
+@import "cards";
+@import "solution";
+* {
+    font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
+}
+
+html,
+body {
+    background: #f4f9fe;
+}
+
+.ui.button.blue {
+    background: #2196f3 !important;
+}
+
+#app .page-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    .pageCent {
+        flex: 1;
+    }
+}
+
+// servers
+.ui.container.server {
+    margin: 20px auto;
+    margin-bottom: 70px;
+    >.header {
+        font-size: 32px;
+        text-align: left;
+        margin: 30px auto;
+        margin-top: 70px;
+    }
+    >.sub_header {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .ui.grid {
+        margin-bottom: 10px;
+    }
+}
