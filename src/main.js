@@ -6,16 +6,20 @@ import router from './router'
 
 import VueResource from 'vue-resource'
 
+import echarts from 'echarts'
+
+Vue.prototype.$echarts = echarts
+
 Vue.use(VueResource)
 
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  template: '<App/>',
-  components: {
-    App
-  }
+    el: '#app',
+    router,
+    template: '<App/>',
+    components: {
+        App
+    }
 })
