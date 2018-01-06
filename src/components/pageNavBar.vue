@@ -14,10 +14,10 @@
                     <router-link to="/about">关于我们</router-link>
                 </li>
                 <li>
-                    <router-link to="/service">产品服务</router-link>
+                    <router-link to="/service">技术服务</router-link>
                 </li>
                 <li>
-                    <router-link to="/team">我们团队</router-link>
+                    <router-link to="/service">产品方案</router-link>
                 </li>
             </ul>
             <button type="button" name="button" class="ui blue button">预约我们</button>
@@ -28,11 +28,11 @@
 
 <script>
 export default {
-    name: 'pageNavBar',
-    data() {
-        return {
-            prdId: parseInt(Math.random())
-        }
-    }
-}
+  name: "pageNavBar",
+  data() {
+    return {
+      prdId: parseInt(Math.random())
+    };
+  }
+};
 </script>

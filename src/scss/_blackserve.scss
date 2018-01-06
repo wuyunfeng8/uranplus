@@ -1,8 +1,7 @@
 .ui.blackserve {
     width: 100%;
-    height: 800px;
     background: #262730;
-    padding: 50px;
+    padding: 50px 0;
     h3.header {
         color: #fff;
         font-size: 32px;
@@ -29,8 +28,38 @@
                 width: 100%;
                 display: flex;
                 .box {
-                    text-align: center;
+                    text-align: right;
                     flex: 1;
+                    p {
+                        font-size: 40px;
+                        margin: 0;
+                        span {
+                            font-size: 22px;
+                        }
+                    }
+                    .sub {
+                        color: #999;
+                        font-size: 18px;
+                        margin: 0;
+                    }
+                }
+            }
+            .three-list {
+                margin-top: 20px;
+                .box {
+                    width: 100%;
+                    margin: 10px auto;
+                    background: #3c3d45;
+                    padding: 30px;
+                    border-radius: 5px;
+                    .title {
+                        font-size: 18px;
+                    }
+                    p {
+                        font-size: 14px;
+                        margin-top: 10px;
+                        color: #999;
+                    }
                 }
             }
         }

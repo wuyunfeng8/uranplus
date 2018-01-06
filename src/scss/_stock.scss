@@ -1,0 +1,23 @@
+.ui.stock {
+    width: 100%;
+    padding: 50px 0;
+    .ui.container {
+        .header {
+            font-size: 32px;
+        }
+        .sub_header {
+            font-size: 16px;
+        }
+        .ui.doubling {
+            margin-top: 50px;
+            .column {
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                padding: 50px 0;
+                font-size: 30px;
+                box-shadow: 1px 0 0 0 #e8e8e8, 0 1px 0 0 #e8e8e8, 1px 1px 0 0 #e8e8e8, 1px 0 0 0 #e8e8e8 inset, 0 1px 0 0 #e8e8e8 inset;
+            }
+        }
+    }
+}
