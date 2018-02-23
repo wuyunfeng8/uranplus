@@ -8,16 +8,17 @@
 @import "stock";
 @import "users";
 * {
-    font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
 }
 
 html,
 body {
     background: #f4f9fe;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
 }
 
 .ui.button.blue {
-    background: #2196f3 !important;
+    background: $ui-navbar-color !important;
 }
 
 #app .page-content {
@@ -34,11 +35,11 @@ body {
     width: 100%;
     padding: 50px 0;
     .ui.container {
-        >.header {
+        > .header {
             font-size: 32px;
             text-align: left;
         }
-        >.sub_header {
+        > .sub_header {
             font-size: 16px;
             text-align: left;
             margin-bottom: 50px;
