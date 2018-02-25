@@ -186,6 +186,9 @@
                 </div>
             </div>
         </div>
+        <div class="ui map">
+            <img src="../assets/images/urp_map.png" alt="">
+        </div>
     </div>
 </template>
 
