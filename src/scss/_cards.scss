@@ -9,14 +9,14 @@
         box-shadow: 0 32px 48px rgba(0, 0, 0, 0.06);
     }
     .image {
-        >img {
+        > img {
             width: 100%;
             height: 220px;
         }
     }
     .content {
         padding: 20px 20px 36px;
-        >.header {
+        > .header {
             font-size: 24px;
             margin: 0 0 24px;
             &::after {
@@ -30,5 +30,11 @@
         .description {
             color: #999;
         }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .ui.cards {
+        box-shadow: 0 32px 48px rgba(0, 0, 0, 0.06);
     }
 }

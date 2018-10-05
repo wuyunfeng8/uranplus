@@ -1,25 +1,38 @@
-.banner.content{
+.banner.content {
     height: 700px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('../assets/images/bg01.jpg') no-repeat center center;
-    background-size:cover;
-    h1{
+    background: url("../assets/images/bg01.jpeg") no-repeat center center;
+    background-size: cover;
+    h1 {
         color: #fff;
         font-size: 40px;
         font-weight: 400;
     }
-    .content-box{
+    .content-box {
         display: flex;
         color: #fff;
-        font-size: 16px;
+        font-size: 20px;
         flex-direction: column;
         align-items: center;
-        p{
-            text-align: center;;
+        p {
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .banner.content {
+        padding: 10px;
+        align-items: flex-start;
+        .content-box {
+            align-items: flex-start;
+            p {
+                text-align: left;
+            }
         }
     }
 }

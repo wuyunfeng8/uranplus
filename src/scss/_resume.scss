@@ -34,4 +34,30 @@
             }
         }
     }
+    @media only screen and (max-width: 800px) {
+        .container {
+            .content {
+                flex-direction: column;
+                box-shadow: 0 0 50px #ccc;
+                .cent {
+                    margin-right: 0;
+                    p {
+                        font-size: 16px;
+                        text-align: justify;
+                    }
+                }
+                .image {
+                    margin-top: 20px;
+                    width: 100%;
+                    img {
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+                }
+            }
+            button {
+                display: none;
+            }
+        }
+    }
 }

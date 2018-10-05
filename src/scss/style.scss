@@ -35,11 +35,11 @@ body {
     width: 100%;
     padding: 50px 0;
     .ui.container {
-        >.header {
+        > .header {
             font-size: 32px;
             text-align: left;
         }
-        >.sub_header {
+        > .sub_header {
             font-size: 16px;
             text-align: left;
             margin-bottom: 50px;
@@ -53,4 +53,39 @@ body {
 //map
 .ui.map {
     width: 100%;
+    background: #262730;
+    padding: 50px 0;
+    .main {
+        display: flex;
+        .img {
+            flex: 1;
+            img {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+        .contet {
+            color: #fff;
+            width: 300px;
+            padding-left: 20px;
+            font-size: 20px;
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .ui.map {
+        .container {
+            .main {
+                flex-direction: column;
+                .contet {
+                    padding-left: 0;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
 }

@@ -1,6 +1,6 @@
 .ui.footer {
     width: 100%;
-    height: 400px;
+    // height: 400px;
     background: #262730;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,7 @@
         flex: 1;
     }
     .footer {
+        padding: 0 10px;
         display: flex;
         align-items: center;
         justify-content: center;

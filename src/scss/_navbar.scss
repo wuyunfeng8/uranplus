@@ -58,4 +58,16 @@ $ui-navbar-color: #0099ff;
             }
         }
     }
+
+    @media only screen and (max-width: 800px) {
+        .container {
+            .content {
+                justify-content: center;
+                .menu,
+                button {
+                    display: none;
+                }
+            }
+        }
+    }
 }

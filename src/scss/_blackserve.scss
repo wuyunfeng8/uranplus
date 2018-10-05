@@ -65,3 +65,30 @@
         }
     }
 }
+
+@media only screen and (max-width: 990px) {
+    .ui.blackserve {
+        .centent {
+            padding: 0;
+            .image {
+                display: none;
+            }
+            .list-box {
+                margin-left: 0;
+                .three-box {
+                    .box {
+                        p {
+                            font-size: 24px;
+                            span {
+                                font-size: 16px;
+                            }
+                        }
+                        .sub {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
