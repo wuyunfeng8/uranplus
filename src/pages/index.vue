@@ -25,7 +25,9 @@
                         <p>但是我们认为这些还远远不够，我们会接着去努力做一些更有意义的事情，实现我们的价值</p>
                     </div>
                     <div class="image">
-                        <img src="../assets/images/resume.jpg" alt="">
+                        <img src="
+                        https://uranplus.oss-cn-shenzhen.aliyuncs.com/resume.jpg"
+                            alt="">
                     </div>
                 </div>
                 <button type="button" name="button" class="ui button blue">了解更多</button>
@@ -83,7 +85,8 @@
                         <div class="column">
                             <div class="ui cards">
                                 <div class="image">
-                                    <img src="../assets/images/top-bg.jpg" alt="">
+                                    <img src="
+https://uranplus.oss-cn-shenzhen.aliyuncs.com/top-bg.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h3 class="header">
@@ -96,7 +99,8 @@
                         <div class="column">
                             <div class="ui cards">
                                 <div class="image">
-                                    <img src="../assets/images/top02.jpg" alt="">
+                                    <img src="
+https://uranplus.oss-cn-shenzhen.aliyuncs.com/top02.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h3 class="header">
@@ -109,7 +113,8 @@
                         <div class="column">
                             <div class="ui cards">
                                 <div class="image">
-                                    <img src="../assets/images/top03.jpg" alt="">
+                                    <img src="
+https://uranplus.oss-cn-shenzhen.aliyuncs.com/top03.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h3 class="header">
@@ -130,7 +135,8 @@
                 <div class="sub_title">年轻且靠谱的技术研发团队，打造稳定放心的系统</div>
                 <div class="centent">
                     <div class="image">
-                        <img src="../assets/images/l6_img1.png" alt="">
+                        <img src="
+https://uranplus.oss-cn-shenzhen.aliyuncs.com/l6_img1.png" alt="">
                     </div>
                     <div class="list-box">
                         <div class="three-box">
@@ -190,7 +196,8 @@
             <div class="ui container">
                 <div class="main">
                     <div class="img">
-                        <img src="../assets/images/ditu.png" alt="">
+                        <img src="
+https://uranplus.oss-cn-shenzhen.aliyuncs.com/ditu.png" alt="">
                     </div>
                     <div class="contet">
                         <p>武汉优燃佳科技有限公司</p>
